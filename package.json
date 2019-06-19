@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.4",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "yargs": "^13.2.4"
   }
 }
