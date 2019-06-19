@@ -1,7 +1,6 @@
 {
-  "name": "web-server",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
@@ -14,5 +13,15 @@
     "hbs": "^4.0.4",
     "request": "^2.88.0",
     "yargs": "^13.2.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buckoge/node3-weather-webserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Buckoge/node3-weather-webserver/issues"
+  },
+  "homepage": "https://github.com/Buckoge/node3-weather-webserver#readme",
+  "description": ""
 }
