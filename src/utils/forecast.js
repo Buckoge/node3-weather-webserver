@@ -10,9 +10,8 @@ const forecast = (latitude, longitude, callback) => {
             callback('Unable to find location', undefined)
         } else {
             callback(undefined, body.daily.data[0].summary + ' Trenutno je ' + body.currently.temperature + " stepeni napolju.  Najvisa dnevna temperatura " 
-            + body.daily.data[0].temperatureHigh + " Najniza dnevna temperatura " 
-            + body.daily.data[0].temperatureLow + " Verovatnoca "
-            + body.currently.precipProbability + '% za padavine.')
+            + body.daily.data[0].temperatureHigh + " Najniza dnevna temperatura " + body.daily.data[0].temperatureLow + " Verovatnoca "
+            + body.currently.precipProbability + '% za padavine. UV index ' + body.daily.data[0].uvIndex)
         }
     })
 }
